@@ -353,6 +353,7 @@ header nav a:hover {
 }
 .mid-content {
   width: 100%;
+  margin: 40px o;
 }
 .mid-content .mid-content-icons {
   display: flex;
@@ -361,7 +362,7 @@ header nav a:hover {
   flex-direction: row;
   background-color: #49fcd4;
   padding: 20px 0;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   border-radius: 10px;
 }
 .mid-content .mid-content-icons img {
@@ -384,7 +385,7 @@ header nav a:hover {
 .mid-content .imgList .peers,
 .mid-content .imgList .instant {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: none;
   flex-direction: row;
   border-bottom: 3px dashed #49fcd4;
@@ -405,7 +406,7 @@ header nav a:hover {
 .mid-content .imgList .send .instant-img,
 .mid-content .imgList .peers .instant-img,
 .mid-content .imgList .instant .instant-img {
-  width: 50%;
+  max-width: 45%;
 }
 @media (max-width: 550px) {
   .mid-content .imgList .send .send-img,
@@ -417,6 +418,7 @@ header nav a:hover {
   .mid-content .imgList .send .instant-img,
   .mid-content .imgList .peers .instant-img,
   .mid-content .imgList .instant .instant-img {
+    max-width: 100%;
     width: 100%;
   }
 }
@@ -566,9 +568,6 @@ h5,
 h6 {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 10px;
-}
-section {
-  margin: 60px 0;
 }
 .toggleDisplay {
   display: none;

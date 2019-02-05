@@ -1,0 +1,94 @@
+.top-content {
+  .flex(space-around);
+  margin: 100px 0 20px 0;
+
+  .top-content-text {
+    h1 {
+      display: block;
+      font-size: 30px;
+      margin-bottom: 15px;
+      padding-left: 10px;
+    }
+  }
+
+  .tip-receive {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 160px;
+      height: 40px;
+      font-size: 15px;
+      font-family: @header-font;
+      border-radius: 10px;
+      text-align: center;
+      margin: 10px 0px;
+    }
+
+    .tip {
+      margin-bottom: 30px;
+      //width: 50%;
+    }
+
+    .give-tip {
+      background-color: @bg-color;
+      
+      &:hover {
+        background-color: @text-color;
+        color: white;
+      }
+    }
+
+    .receive {
+      //width: 50%;
+    }
+
+    .receive-tip {
+      background-color: @text-color;
+      color: white;
+
+      &:hover {
+        background-color: @bg-color;
+        color: @text-color;
+      }
+    }
+
+    @media (max-width: 550px) {
+      width: 100%;
+    }
+  }
+
+  .top-content-img {
+    max-width: 50%;
+    .flex(center, center);
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+
+      @media (max-width: 550px) {
+        display: none;
+      }
+    }
+
+    @media (max-width: 800px) {
+      max-width: 100%;
+      width: 90%;
+      margin-left: 25px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    margin-top: 150px;
+    display: block;
+  }
+
+  @media (max-width: 550px) {
+    margin-top: 80px;
+  }
+}

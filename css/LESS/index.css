@@ -513,8 +513,6 @@ header nav a:hover {
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  padding-bottom: 60px;
-  margin-bottom: 40px;
   border-bottom: 3px dashed #49fcd4;
 }
 .test .person {
@@ -545,6 +543,66 @@ header nav a:hover {
 .test .person .person-text {
   max-width: 400px;
   margin-left: 20px;
+}
+.about {
+  margin-top: 170px;
+}
+.about h1 {
+  text-align: center;
+  font-size: 50px;
+  background-color: #49fcd4;
+  border-radius: 10px;
+  width: 550px;
+  margin: auto;
+}
+.about h2 {
+  font-size: 40px;
+  text-align: center;
+  background-color: #49fcd4;
+  border-radius: 10px;
+  width: 320px;
+  margin: 0px auto;
+}
+.about .mission {
+  margin-bottom: 50px;
+  border-bottom: 3px dashed #49fcd4;
+}
+.about .mission p {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.about .benefits h2 {
+  width: 230px;
+  margin: auto;
+}
+.about .test {
+  border-top: 3px dashed #49fcd4;
+}
+.about .test h2 {
+  margin: 60px auto;
+  border-bottom: 3px dashed #49fcd4;
+}
+.about .list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: baseline;
+  margin: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+.about .list p {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+@media (max-width: 550px) {
+  .about {
+    margin-top: 80px;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126

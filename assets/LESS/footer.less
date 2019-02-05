@@ -1,21 +1,31 @@
 .footer {
+  bottom: 0;
+  height: 105px;
   margin: 0;
   background-color: @bg-color;
   footer {
     nav {
-      width: 90%;
+      width: 100%;
       .flex(space-evenly, center);
-      margin: 20px;
+      //padding: 20px;
+      margin-left: 0px;
 
       a {
         text-decoration-style: none;
         text-decoration-line: none;
         text-decoration-color: none;
+        color: @text-color;
+        padding: 20px 20px;;
+
+        &:hover {
+          background-color: white;
+          color: @bg-color;
+        }
       }
     }
     p {
       text-align: center;
-      
+      padding: 10px;
     }
   }
 }

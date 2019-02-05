@@ -156,7 +156,7 @@ header .logo {
     text-align: center;
     position: fixed;
     background-color: #49fcd4;
-    left: 35%;
+    left: 38%;
   }
 }
 header .menu-img {
@@ -259,7 +259,10 @@ header nav a:hover {
   justify-content: space-around;
   align-items: none;
   flex-direction: row;
-  margin: 100px 0 20px 0;
+  margin: 100px 20px 20px 20px;
+}
+.top-content .top-content-text {
+  width: 60%;
 }
 .top-content .top-content-text h1 {
   display: block;
@@ -267,8 +270,14 @@ header nav a:hover {
   margin-bottom: 15px;
   padding-left: 10px;
 }
+@media (max-width: 800px) {
+  .top-content .top-content-text {
+    width: 95%;
+  }
+}
 .top-content .tip-receive {
   display: flex;
+  justify-content: space-between;
   width: 100%;
   padding: 10px;
 }
@@ -286,6 +295,7 @@ header nav a:hover {
 }
 .top-content .tip-receive .tip {
   margin-bottom: 30px;
+  margin-right: 20px;
 }
 .top-content .tip-receive .give-tip {
   background-color: #49fcd4;
@@ -308,7 +318,7 @@ header nav a:hover {
   }
 }
 .top-content .top-content-img {
-  max-width: 50%;
+  max-width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -353,6 +363,10 @@ header nav a:hover {
   padding: 20px 0;
   margin-bottom: 30px;
   border-radius: 10px;
+}
+.mid-content .mid-content-icons img {
+  height: 120px;
+  margin-bottom: 10px;
 }
 @media (width: 550px) {
   .mid-content .mid-content-icons {
@@ -465,32 +479,41 @@ header nav a:hover {
   }
 }
 .footer {
+  bottom: 0;
+  height: 105px;
   margin: 0;
   background-color: #49fcd4;
 }
 .footer footer nav {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  margin: 20px;
+  margin-left: 0px;
 }
 .footer footer nav a {
   text-decoration-style: none;
   text-decoration-line: none;
   text-decoration-color: none;
+  color: #000000;
+  padding: 20px 20px;
+}
+.footer footer nav a:hover {
+  background-color: white;
+  color: #49fcd4;
 }
 .footer footer p {
   text-align: center;
+  padding: 10px;
 }
 .test h2 {
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   margin-bottom: 40px;
-  border-bottom: 1px dashed black;
+  border-bottom: 3px dashed #49fcd4;
 }
 .test .person {
   border: 2px solid #49fcd4;
@@ -508,6 +531,7 @@ header nav a:hover {
 .test .person .person-img p {
   margin-right: 20px;
   line-height: 2;
+  padding-top: 20px;
 }
 .test .person img {
   border-radius: 50%;
@@ -517,7 +541,7 @@ header nav a:hover {
   line-height: 2;
 }
 .test .person .person-text {
-  max-width: 20%;
+  max-width: 400px;
   margin-left: 20px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 

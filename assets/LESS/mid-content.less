@@ -1,6 +1,12 @@
 .mid-content {
   width: 100%;
   margin: 40px o;
+
+  h2 {
+    background-color: @bg-color;
+    border-radius: 10px;
+  }
+
   .mid-content-icons {
     .flex(space-evenly);
     background-color: @bg-color;
@@ -70,13 +76,31 @@
         .flex(center, center, column-reverse);
       }
 
+      h2 {
+        max-width: 220px;
+        text-align: center;
+      }
+
       .peers-text {
         order: 0;
       }
     }
 
+    .instant {
+      h2 {
+        max-width: 330px;
+        text-align: center;
+      }
+    }
+
+    .send {
+      h2 {
+        max-width: 260px;
+        text-align: center;
+      }
+    }
+
     img {
-      //position: relative;
       width: 100%;
 
       @media (max-width: 550px) {

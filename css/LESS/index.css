@@ -355,6 +355,10 @@ header nav a:hover {
   width: 100%;
   margin: 40px o;
 }
+.mid-content h2 {
+  background-color: #49fcd4;
+  border-radius: 10px;
+}
 .mid-content .mid-content-icons {
   display: flex;
   justify-content: space-evenly;
@@ -463,8 +467,20 @@ header nav a:hover {
     flex-direction: column-reverse;
   }
 }
+.mid-content .imgList .peers h2 {
+  max-width: 220px;
+  text-align: center;
+}
 .mid-content .imgList .peers .peers-text {
   order: 0;
+}
+.mid-content .imgList .instant h2 {
+  max-width: 330px;
+  text-align: center;
+}
+.mid-content .imgList .send h2 {
+  max-width: 260px;
+  text-align: center;
 }
 .mid-content .imgList img {
   width: 100%;
@@ -552,7 +568,7 @@ header nav a:hover {
   font-size: 50px;
   background-color: #49fcd4;
   border-radius: 10px;
-  width: 550px;
+  max-width: 550px;
   margin: auto;
 }
 .about h2 {
@@ -560,7 +576,7 @@ header nav a:hover {
   text-align: center;
   background-color: #49fcd4;
   border-radius: 10px;
-  width: 320px;
+  max-width: 320px;
   margin: 0px auto;
 }
 .about .mission {
@@ -575,7 +591,7 @@ header nav a:hover {
   font-size: 1.2rem;
 }
 .about .benefits h2 {
-  width: 230px;
+  max-width: 230px;
   margin: auto;
 }
 .about .test {

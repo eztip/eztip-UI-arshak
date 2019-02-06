@@ -642,6 +642,16 @@ header nav a:hover {
   max-width: 550px;
   margin: auto;
 }
+@media (max-width: 400px) {
+  .about h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 300px) {
+  .about h1 {
+    font-size: 30px;
+  }
+}
 .about h2 {
   font-size: 40px;
   text-align: center;
@@ -649,6 +659,11 @@ header nav a:hover {
   border-radius: 10px;
   max-width: 320px;
   margin: 0px auto;
+}
+@media (max-width: 400px) {
+  .about h2 {
+    font-size: 30px;
+  }
 }
 .about .mission {
   margin-bottom: 50px;

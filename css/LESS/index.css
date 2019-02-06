@@ -455,19 +455,23 @@ header nav a:hover {
 .carousel .instant img {
   border-radius: 10px;
   border: 2px solid #49fcd4;
+  padding: 5px;
+  width: 600px;
   height: 500px;
+  max-width: 90%;
 }
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .carousel .send img,
   .carousel .peers img,
   .carousel .instant img {
-    height: 400px;
+    height: 500px;
   }
 }
 @media (max-width: 600px) {
   .carousel .send img,
   .carousel .peers img,
   .carousel .instant img {
+    width: 400px;
     height: 300px;
   }
 }
@@ -516,7 +520,7 @@ header nav a:hover {
 }
 .footer {
   bottom: 0;
-  height: 167px;
+  height: 186px;
   margin: 0;
   background-color: #49fcd4;
 }
@@ -566,9 +570,14 @@ header nav a:hover {
     margin: 0 auto;
   }
 }
+@media (max-width: 800px) {
+  .footer {
+    height: 190px;
+  }
+}
 @media (max-width: 550px) {
   .footer {
-    height: 390px;
+    height: 410px;
   }
 }
 .test h2 {
@@ -657,7 +666,7 @@ header nav a:hover {
 }
 .about .benefits .list {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: baseline;
   margin: 40px 20px;
@@ -665,10 +674,14 @@ header nav a:hover {
   margin: 40px auto;
 }
 .about .benefits .list img {
-  margin: 0 20px;
+  margin: 0 60px;
+}
+@media (max-width: 550px) {
+  .about .benefits .list img {
+    margin: 0 10px;
+  }
 }
 .about .benefits .list p {
-  text-align: justify;
   line-height: 1.5;
   font-size: 1.2rem;
   max-width: 400px;
@@ -729,7 +742,7 @@ header nav a:hover {
     padding: 20px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 686px) {
   .about .test .person .person-text p {
     border-top: 2px dashed #49fcd4;
   }

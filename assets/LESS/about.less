@@ -52,17 +52,20 @@
     }
 
     .list {
-      .flex(space-around, center, baseline);
+      .flex(flex-start, center, baseline);
       margin: 40px 20px;
       max-width: 700px;
       margin: 40px auto;
   
       img {
-        margin: 0 20px;
+        margin: 0 60px;
+
+        @media (max-width: 550px) {
+          margin: 0 10px;
+        }
       }
   
       p {
-        text-align: justify;
         line-height: 1.5;
         font-size: 1.2rem;
         max-width: 400px;
@@ -126,7 +129,7 @@
             padding: 20px;
           }
 
-          @media (max-width: 550px) {
+          @media (max-width: 686px) {
             border-top: 2px dashed @bg-color;
           }
         }

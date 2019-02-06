@@ -33,13 +33,17 @@
     img {
       border-radius: 10px;
       border: 2px solid @bg-color;
+      padding: 5px;
+      width: 600px;
       height: 500px;
+      max-width: 90%;
 
-      @media (max-width: 850px) {
-        height: 400px;
+      @media (max-width: 800px) {
+        height: 500px;
       }
 
       @media (max-width: 600px) {
+        width: 400px;
         height: 300px;
       }
     }

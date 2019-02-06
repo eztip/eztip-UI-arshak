@@ -265,7 +265,7 @@ header nav a:hover {
 }
 @media (max-width: 550px) {
   header {
-    height: 40px;
+    height: 45px;
     width: 100%;
   }
 }
@@ -282,8 +282,18 @@ header nav a:hover {
 .top-content .top-content-text h1 {
   display: block;
   font-size: 30px;
+  font-weight: 500;
   margin-bottom: 15px;
   padding-left: 10px;
+  background-color: #49fcd4;
+  border-radius: 10px;
+  width: 290px;
+}
+@media (max-width: 550px) {
+  .top-content .top-content-text h1 {
+    margin-left: 20px;
+    max-width: 95%;
+  }
 }
 @media (max-width: 800px) {
   .top-content .top-content-text {
@@ -297,6 +307,8 @@ header nav a:hover {
   padding: 10px;
 }
 .top-content .tip-receive h2 {
+  font-size: 20px;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 .top-content .tip-receive button {
@@ -435,6 +447,7 @@ header nav a:hover {
   margin: auto;
   font-size: 20px;
   text-align: center;
+  font-weight: 500;
 }
 .carousel .send p,
 .carousel .peers p,

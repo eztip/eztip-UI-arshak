@@ -9,8 +9,17 @@
     h1 {
       display: block;
       font-size: 30px;
+      font-weight: 500;
       margin-bottom: 15px;
       padding-left: 10px;
+      background-color: @bg-color;
+      border-radius: 10px;
+      width: 290px;
+
+      @media (max-width: 550px) {
+        margin-left: 20px;
+        max-width: 95%;
+      }
     }
 
     @media (max-width: 800px) {
@@ -25,6 +34,8 @@
     padding: 10px;
 
     h2 {
+      font-size: 20px;
+      font-weight: 400;
       margin-bottom: 10px;
     }
 

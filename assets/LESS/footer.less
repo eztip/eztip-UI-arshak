@@ -1,13 +1,12 @@
 .footer {
   bottom: 0;
-  height: 105px;
+  height: 167px;
   margin: 0;
   background-color: @bg-color;
   footer {
     nav {
       width: 100%;
       .flex(space-evenly, center);
-      //padding: 20px;
       margin-left: 0px;
 
       a {
@@ -19,13 +18,36 @@
 
         &:hover {
           background-color: white;
-          color: @bg-color;
+          color: darkcyan;
+        }
+
+        @media (max-width: 550px) {
+          display: block;
+          text-align: center;
         }
       }
+
+      @media (max-width: 550px) {
+        display: block;
+      }
     }
+
     p {
       text-align: center;
       padding: 10px;
     }
+
+    .apple {
+      margin: 0 20px;
+
+      @media (max-width: 550px) {
+        .flex(center, center);
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    height: 390px;
   }
 }

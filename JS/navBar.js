@@ -3,10 +3,15 @@ class NavLink {
     this.nav = nav;
     this.menu = document.getElementById('myBtn');
     this.menu.addEventListener('click', () => this.toggleContent());
+    window.addEventListener("resize", () => this.resize(), true);
   }
 
   toggleContent() {
-    this.nav.classList.toggle('toggleDisplay');
+    this.nav.classList.toggle('toggleOn'); 
+  }
+
+  resize() {
+    this.nav.classList.remove('toggleOn');
   }
 }
 

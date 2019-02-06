@@ -9,7 +9,7 @@ header {
     top: 20px;
     position: fixed;
     width: 120px;
-    padding-left: 30px;
+    padding: 0 10px;
     align-items: center;
     //padding-top: 30px;
 
@@ -50,7 +50,7 @@ header {
 
       &:hover {
         background-color: white;
-        color: @bg-color;
+        color: darkcyan;
       }
 
       @media (max-width: 550px) {
@@ -69,7 +69,7 @@ header {
     }
 
     @media (max-width: 550px) {
-      //display: none;
+      display: none;
       justify-content: center;
     }
   }
@@ -78,12 +78,21 @@ header {
     flex-direction: column;
   }
 
+  #link1 {
+    @media (max-width: 550px) {
+      position: fixed;
+      padding: 10px;
+      right: 0px;
+      top: 40px;
+    }
+  }
+
   #link2 {
     @media (max-width: 550px) {
       position: fixed;
       padding: 10px;
       right: 0px;
-      top: 75px;
+      top: 76px;
     }
   }
 
@@ -92,7 +101,7 @@ header {
       position: fixed;
       padding: 10px;
       right: 0px;
-      top: 110px;
+      top: 112px;
     }
   }
 
@@ -101,7 +110,7 @@ header {
       position: fixed;
       padding: 10px;
       right: 0px;
-      top: 140px;
+      top: 148px;
     }
   }
 
@@ -110,8 +119,13 @@ header {
       position: fixed;
       padding: 10px;
       right: 0px;
-      top: 170px;
+      top: 184px;
     }
+  }
+
+  @media (max-width: 800px) {
+    height: 116px;
+    width: 100%;
   }
 
   @media (max-width: 550px) {

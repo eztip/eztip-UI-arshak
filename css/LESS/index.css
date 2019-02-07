@@ -148,6 +148,7 @@ header .logo {
   padding: 0 10px;
   text-decoration-line: none;
   text-decoration-color: none;
+  text-align: center;
 }
 header .logo h1 {
   font-family: 'Ubuntu', sans-serif;
@@ -324,6 +325,7 @@ header nav a:hover {
 @media (max-width: 800px) {
   .top-content .top-content-text {
     width: 95%;
+    margin: 10px auto;
   }
 }
 .top-content .tip-receive {
@@ -468,7 +470,6 @@ header nav a:hover {
   background-color: #49fcd4;
   padding: 20px 0;
   margin-bottom: 60px;
-  border-radius: 10px;
 }
 .mid-content .mid-content-icons .icon {
   text-align: center;
@@ -495,6 +496,7 @@ header nav a:hover {
     display: block;
     margin: 0 auto;
     max-width: 300px;
+    border-radius: 10px;
   }
 }
 .carousel {
@@ -914,6 +916,9 @@ header nav a:hover {
 .team img {
   border-radius: 10px;
   margin-bottom: 20px;
+}
+.team .logo h1 {
+  width: 100px;
 }
 .team .c-suite {
   display: flex;

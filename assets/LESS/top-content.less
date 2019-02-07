@@ -33,17 +33,12 @@
     width: 100%;
     padding: 10px;
 
-    h2 {
-      font-size: 20px;
-      font-weight: 400;
-      margin-bottom: 10px;
-    }
-
     button {
       width: 160px;
       height: 40px;
       font-size: 15px;
       font-family: @header-font;
+      border: 2px solid darkcyan;
       border-radius: 10px;
       text-align: center;
       margin: 10px 0px;
@@ -52,13 +47,36 @@
     .tip {
       margin-bottom: 30px;
       margin-right: 20px;
+
+      h2 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        text-decoration-style: solid;
+        text-decoration-line: underline;
+        text-underline-position: under;
+        text-decoration-color: purple;
+      }
+    }
+
+    .receive {
+
+      h2 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        text-decoration-style: solid;
+        text-decoration-line: underline;
+        text-underline-position: under;
+        text-decoration-color: purple;
+      }
     }
 
     .give-tip {
       background-color: @bg-color;
       
       &:hover {
-        background-color: @text-color;
+        background-color: black;
         color: white;
       }
     }

@@ -189,6 +189,10 @@ header nav a {
 header nav a:hover {
   background-color: white;
   color: darkcyan;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  text-decoration-color: purple;
 }
 @media (max-width: 550px) {
   header nav a {
@@ -306,16 +310,12 @@ header nav a:hover {
   width: 100%;
   padding: 10px;
 }
-.top-content .tip-receive h2 {
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
 .top-content .tip-receive button {
   width: 160px;
   height: 40px;
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
+  border: 2px solid darkcyan;
   border-radius: 10px;
   text-align: center;
   margin: 10px 0px;
@@ -324,11 +324,29 @@ header nav a:hover {
   margin-bottom: 30px;
   margin-right: 20px;
 }
+.top-content .tip-receive .tip h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  text-decoration-color: purple;
+}
+.top-content .tip-receive .receive h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  text-decoration-color: purple;
+}
 .top-content .tip-receive .give-tip {
   background-color: #49fcd4;
 }
 .top-content .tip-receive .give-tip:hover {
-  background-color: #000000;
+  background-color: black;
   color: white;
 }
 .top-content .tip-receive .receive-tip {
@@ -399,6 +417,9 @@ header nav a:hover {
   margin-bottom: 60px;
   border-radius: 10px;
 }
+.mid-content .mid-content-icons .icon {
+  text-align: center;
+}
 @media (max-width: 550px) {
   .mid-content .mid-content-icons .icon {
     margin: 40px auto;
@@ -420,7 +441,7 @@ header nav a:hover {
   .mid-content .mid-content-icons {
     display: block;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 300px;
   }
 }
 .carousel {
@@ -561,6 +582,10 @@ header nav a:hover {
 .footer footer .top-footer nav a:hover {
   background-color: white;
   color: darkcyan;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  text-decoration-color: purple;
 }
 @media (max-width: 750px) {
   .footer footer .top-footer nav a {

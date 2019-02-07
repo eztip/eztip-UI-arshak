@@ -4,30 +4,39 @@
   margin: 0;
   background-color: @bg-color;
   footer {
-    nav {
-      width: 100%;
+
+    .top-footer {
       .flex(space-evenly, center);
-      margin-left: 0px;
 
-      a {
-        text-decoration-style: none;
-        text-decoration-line: none;
-        text-decoration-color: none;
-        color: @text-color;
-        padding: 20px 20px;;
+      nav {
+        width: 100%;
+        .flex(flex-end, center);
+        margin-left: 0px;
 
-        &:hover {
-          background-color: white;
-          color: darkcyan;
+        a {
+          text-decoration-style: none;
+          text-decoration-line: none;
+          text-decoration-color: none;
+          color: @text-color;
+          padding: 20px 20px;;
+
+          &:hover {
+            background-color: white;
+            color: darkcyan;
+          }
+
+          @media (max-width: 750px) {
+            display: block;
+            text-align: center;
+          }
         }
 
-        @media (max-width: 550px) {
+        @media (max-width: 750px) {
           display: block;
-          text-align: center;
         }
       }
 
-      @media (max-width: 550px) {
+      @media (max-width: 750px) {
         display: block;
       }
     }
@@ -38,11 +47,20 @@
     }
 
     .apple {
-      margin: 0 20px;
+      margin: 10px 20px;
 
-      @media (max-width: 550px) {
+      @media (max-width: 750px) {
         .flex(center, center);
-        margin: 0 auto;
+        margin: 10px auto;
+      }
+    }
+
+    .font-icons {
+      .flex(center, center);
+      font-size: 50px;
+      cursor: pointer;
+      i {
+        margin: 0 10px;
       }
     }
   }
@@ -51,7 +69,7 @@
     height: 190px;
   }
 
-  @media (max-width: 550px) {
-    height: 410px;
+  @media (max-width: 750px) {
+    height: 470px;
   }
 }

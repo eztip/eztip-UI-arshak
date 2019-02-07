@@ -146,7 +146,14 @@ header .logo {
   position: fixed;
   width: 120px;
   padding: 0 10px;
-  align-items: center;
+  text-decoration-line: none;
+  text-decoration-color: none;
+}
+header .logo h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
 }
 @media (max-width: 800px) {
   header .logo {
@@ -156,7 +163,22 @@ header .logo {
     text-align: center;
     position: fixed;
     background-color: #49fcd4;
-    left: 38%;
+    left: 41%;
+  }
+}
+@media (max-width: 550px) {
+  header .logo {
+    left: 39%;
+  }
+}
+@media (max-width: 400px) {
+  header .logo {
+    left: 34%;
+  }
+}
+@media (max-width: 330px) {
+  header .logo {
+    left: 30%;
   }
 }
 header .menu-img {
@@ -324,6 +346,7 @@ header nav a:hover {
 .top-content .tip-receive .tip {
   margin-bottom: 30px;
   margin-right: 20px;
+  width: 50%;
 }
 .top-content .tip-receive .tip h2 {
   font-size: 20px;
@@ -334,6 +357,22 @@ header nav a:hover {
   text-underline-position: under;
   text-decoration-color: purple;
 }
+.top-content .tip-receive .tip p {
+  height: 50px;
+}
+@media (max-width: 550px) {
+  .top-content .tip-receive .tip p {
+    height: auto;
+  }
+}
+@media (max-width: 550px) {
+  .top-content .tip-receive .tip {
+    width: 100%;
+  }
+}
+.top-content .tip-receive .receive {
+  width: 50%;
+}
 .top-content .tip-receive .receive h2 {
   font-size: 20px;
   font-weight: 400;
@@ -342,6 +381,19 @@ header nav a:hover {
   text-decoration-line: underline;
   text-underline-position: under;
   text-decoration-color: purple;
+}
+.top-content .tip-receive .receive p {
+  height: 50px;
+}
+@media (max-width: 550px) {
+  .top-content .tip-receive .receive p {
+    height: auto;
+  }
+}
+@media (max-width: 550px) {
+  .top-content .tip-receive .receive {
+    width: 100%;
+  }
 }
 .top-content .tip-receive .give-tip {
   background-color: #49fcd4;

@@ -10,8 +10,15 @@ header {
     position: fixed;
     width: 120px;
     padding: 0 10px;
-    align-items: center;
-    //padding-top: 30px;
+    text-decoration-line: none;
+    text-decoration-color: none;
+
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 30px;
+      color: black;
+      font-weight: bold;
+    }
 
     @media (max-width: 800px) {
       top: 0;
@@ -20,7 +27,19 @@ header {
       text-align: center;
       position: fixed;
       background-color: @bg-color;
-      left: 38%;
+      left: 41%;
+    }
+
+    @media (max-width: 550px) {
+      left: 39%;
+    }
+
+    @media (max-width: 400px) {
+      left: 34%;
+    }
+
+    @media (max-width: 330px) {
+      left: 30%;
     }
   }
 

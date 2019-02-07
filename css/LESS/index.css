@@ -221,40 +221,40 @@ header nav a:hover {
   header #link1 {
     position: fixed;
     padding: 10px;
-    right: 0px;
-    top: 40px;
+    right: -550px;
+    top: 36px;
   }
 }
 @media (max-width: 550px) {
   header #link2 {
     position: fixed;
     padding: 10px;
-    right: 0px;
-    top: 76px;
+    right: -550px;
+    top: 72px;
   }
 }
 @media (max-width: 550px) {
   header #link3 {
     position: fixed;
     padding: 10px;
-    right: 0px;
-    top: 112px;
+    right: -550px;
+    top: 108px;
   }
 }
 @media (max-width: 550px) {
   header #link4 {
     position: fixed;
     padding: 10px;
-    right: 0px;
-    top: 148px;
+    right: -550px;
+    top: 144px;
   }
 }
 @media (max-width: 550px) {
   header #link5 {
     position: fixed;
     padding: 10px;
-    right: 0px;
-    top: 184px;
+    right: -550px;
+    top: 180px;
   }
 }
 @media (max-width: 800px) {
@@ -893,9 +893,6 @@ h5,
 h6 {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 10px;
-}
-.toggleDisplay {
-  display: none;
 }
 .toggleOn {
   display: block;

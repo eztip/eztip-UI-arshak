@@ -138,7 +138,7 @@ header {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: #49fcd4;
+  background-color: #43D9B8;
   margin-bottom: 20px;
 }
 header .logo {
@@ -163,7 +163,7 @@ header .logo h1 {
     justify-content: center;
     text-align: center;
     position: fixed;
-    background-color: #49fcd4;
+    background-color: #43D9B8;
     left: 41%;
   }
 }
@@ -183,7 +183,7 @@ header .logo h1 {
   }
 }
 header .menu-img {
-  background-color: #49fcd4;
+  background-color: #43D9B8;
   display: none;
 }
 @media (max-width: 550px) {
@@ -206,7 +206,7 @@ header nav a {
   text-decoration-line: none;
   text-decoration-color: none;
   padding: 30px;
-  background-color: #49fcd4;
+  background-color: #43D9B8;
   color: #000000;
 }
 header nav a:hover {
@@ -309,10 +309,9 @@ header nav a:hover {
 .top-content .top-content-text h1 {
   display: block;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: bolder;
   margin-bottom: 15px;
   padding-left: 10px;
-  background-color: #49fcd4;
   border-radius: 10px;
   width: 290px;
 }
@@ -352,15 +351,12 @@ header nav a:hover {
 }
 .top-content .tip-receive .tip h2 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: bold;
   margin-bottom: 10px;
-  text-decoration-style: solid;
-  text-decoration-line: underline;
-  text-underline-position: under;
-  text-decoration-color: purple;
 }
 .top-content .tip-receive .tip p {
   height: 50px;
+  margin: 20px 0;
 }
 @media (max-width: 550px) {
   .top-content .tip-receive .tip p {
@@ -377,15 +373,12 @@ header nav a:hover {
 }
 .top-content .tip-receive .receive h2 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: bold;
   margin-bottom: 10px;
-  text-decoration-style: solid;
-  text-decoration-line: underline;
-  text-underline-position: under;
-  text-decoration-color: purple;
 }
 .top-content .tip-receive .receive p {
   height: 50px;
+  margin: 20px 0;
 }
 @media (max-width: 550px) {
   .top-content .tip-receive .receive p {
@@ -398,7 +391,7 @@ header nav a:hover {
   }
 }
 .top-content .tip-receive .give-tip {
-  background-color: #49fcd4;
+  background-color: #43D9B8;
 }
 .top-content .tip-receive .give-tip:hover {
   background-color: black;
@@ -409,7 +402,7 @@ header nav a:hover {
   color: white;
 }
 .top-content .tip-receive .receive-tip:hover {
-  background-color: #49fcd4;
+  background-color: #43D9B8;
   color: #000000;
 }
 @media (max-width: 550px) {
@@ -458,7 +451,7 @@ header nav a:hover {
   margin: 40px o;
 }
 .mid-content h2 {
-  background-color: #49fcd4;
+  font-weight: bold;
   border-radius: 10px;
 }
 .mid-content .mid-content-icons {
@@ -467,7 +460,7 @@ header nav a:hover {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #49fcd4;
+  background-color: #43D9B8;
   padding: 20px 0;
   margin-bottom: 60px;
 }
@@ -485,8 +478,6 @@ header nav a:hover {
 .mid-content .mid-content-icons img {
   height: 120px;
   margin-bottom: 10px;
-  border-radius: 10px;
-  /*border: 3px solid black;*/
 }
 .mid-content .mid-content-icons img:hover {
   background-color: white;
@@ -523,7 +514,7 @@ header nav a:hover {
   margin: auto;
   font-size: 20px;
   text-align: center;
-  font-weight: 500;
+  font-weight: bold;
 }
 .carousel .send p,
 .carousel .peers p,
@@ -543,7 +534,6 @@ header nav a:hover {
 .carousel .peers img,
 .carousel .instant img {
   border-radius: 10px;
-  border: 2px solid #49fcd4;
   padding: 5px;
   width: 600px;
   height: 500px;
@@ -592,9 +582,9 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  color: white;
-  background-color: #49fcd4;
-  border: 2px solid #49fcd4;
+  color: black;
+  background-color: #43D9B8;
+  border: 2px solid #43D9B8;
   font-size: 40px;
   border-radius: 50%;
   width: 50px;
@@ -603,15 +593,15 @@ header nav a:hover {
 }
 .buttons .left-button:hover,
 .buttons .right-button:hover {
-  color: black;
+  color: #43D9B8;
   background-color: white;
-  border: 2px solid #49fcd4;
+  border: 2px solid #43D9B8;
 }
 .footer {
   bottom: 0;
   height: 200px;
   margin: 0;
-  background-color: #49fcd4;
+  background-color: #43D9B8;
 }
 .footer footer .top-footer {
   display: flex;
@@ -694,10 +684,9 @@ header nav a:hover {
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  border-bottom: 3px dashed #49fcd4;
 }
 .test .person {
-  border: 2px solid #49fcd4;
+  border: 2px solid #43D9B8;
   border-radius: 10px;
   margin-bottom: 10px;
   max-width: 90%;
@@ -720,6 +709,12 @@ header nav a:hover {
 }
 .test .person p {
   line-height: 2;
+  font-size: 18px;
+}
+@media (max-width: 686px) {
+  .test .person p {
+    font-size: 16px;
+  }
 }
 .test .person .person-text {
   max-width: 400px;
@@ -734,7 +729,7 @@ header nav a:hover {
 .about h1 {
   text-align: center;
   font-size: 50px;
-  background-color: #49fcd4;
+  font-weight: bold;
   border-radius: 10px;
   max-width: 550px;
   margin: auto;
@@ -751,8 +746,8 @@ header nav a:hover {
 }
 .about h2 {
   font-size: 40px;
+  font-weight: bold;
   text-align: center;
-  background-color: #49fcd4;
   border-radius: 10px;
   max-width: 320px;
   margin: 0px auto;
@@ -764,7 +759,7 @@ header nav a:hover {
 }
 .about .mission {
   margin-bottom: 50px;
-  border-bottom: 3px dashed #49fcd4;
+  border-bottom: 3px dashed #43D9B8;
 }
 @media (max-width: 550px) {
   .about .mission h1 {
@@ -813,12 +808,11 @@ header nav a:hover {
   margin-right: 30px;
 }
 .about .test {
-  border-top: 3px dashed #49fcd4;
+  border-top: 3px dashed #43D9B8;
 }
 .about .test h2 {
   padding: 0;
   margin: 60px auto;
-  border-bottom: 3px dashed #49fcd4;
 }
 @media (max-width: 550px) {
   .about .test h4 {
@@ -869,7 +863,7 @@ header nav a:hover {
 }
 @media (max-width: 686px) {
   .about .test .person .person-text p {
-    border-top: 2px dashed #49fcd4;
+    border-top: 2px dashed #43D9B8;
   }
 }
 @media (max-width: 550px) {
@@ -883,7 +877,7 @@ header nav a:hover {
 .team h1 {
   text-align: center;
   font-size: 50px;
-  background-color: #49fcd4;
+  font-weight: bold;
   border-radius: 10px;
   width: 290px;
   margin: auto;
@@ -901,7 +895,7 @@ header nav a:hover {
 .team h2 {
   text-align: center;
   font-size: 40px;
-  background-color: #49fcd4;
+  font-weight: bold;
   border-radius: 10px;
   width: 250px;
   margin: auto;
@@ -919,6 +913,11 @@ header nav a:hover {
 }
 .team .logo h1 {
   width: 100px;
+}
+@media (max-width: 800px) {
+  .team .logo h1 {
+    margin-top: 0px;
+  }
 }
 .team .c-suite {
   display: flex;
@@ -960,7 +959,7 @@ body {
   margin: 0 auto;
 }
 p {
-  font-family: 'Source Sans Pro' sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin-bottom: 10px;
 }
 h1,

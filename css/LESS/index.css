@@ -319,6 +319,7 @@ header nav a:hover {
   border-radius: 10px;
   text-align: center;
   margin: 10px 0px;
+  cursor: pointer;
 }
 .top-content .tip-receive .tip {
   margin-bottom: 30px;
@@ -432,7 +433,7 @@ header nav a:hover {
   height: 120px;
   margin-bottom: 10px;
   border-radius: 10px;
-  border: 3px solid black;
+  /*border: 3px solid black;*/
 }
 .mid-content .mid-content-icons img:hover {
   background-color: white;

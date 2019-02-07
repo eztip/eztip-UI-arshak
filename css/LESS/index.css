@@ -554,7 +554,7 @@ header nav a:hover {
 }
 .footer {
   bottom: 0;
-  height: 186px;
+  height: 200px;
   margin: 0;
   background-color: #49fcd4;
 }
@@ -629,11 +629,6 @@ header nav a:hover {
 }
 .footer footer .font-icons i {
   margin: 0 10px;
-}
-@media (max-width: 800px) {
-  .footer {
-    height: 190px;
-  }
 }
 @media (max-width: 750px) {
   .footer {

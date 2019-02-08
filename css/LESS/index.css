@@ -479,9 +479,6 @@ header nav a:hover {
   height: 120px;
   margin-bottom: 10px;
 }
-.mid-content .mid-content-icons img:hover {
-  background-color: white;
-}
 @media (max-width: 550px) {
   .mid-content .mid-content-icons {
     display: block;
